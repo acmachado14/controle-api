@@ -1,24 +1,86 @@
-# Lumen PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+<p align="center">
+  <img src="https://seeklogo.com/images/L/lumen-logo-3B3EF36866-seeklogo.com.png" width="50px"/>
+  <br>
+</p>
+<div align=center>
+    <a href="#desc">Description</a> | <a href="#prerequisites">Prerequisites</a> | <a href="#running">Running</a> | <a href="#principles">Principles</a> | <a href="#methodologiesDesigns">Methodologies & Designs</a> | <a href="#librariesFrameworks">Libraries and Frameworks</a>
+</div>
+<br>
+<hr>
+<h2 id="desc">
+    Description
+</h2>
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+API for republic payment control
 
-## Official Documentation
+- - -
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+<h2 id="prerequisites">
+  Prerequisites
+</h2>
 
-## Contributing
+- [Git](https://git-scm.com/download/), [Docker](https://docs.docker.com/get-docker/) and [Docker-Compose](https://docs.docker.com/compose/install/) installed.
+- - - -
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<h2 id="running">
+  Running the project
+</h2>
 
-## Security Vulnerabilities
+All commands below are done in the terminal
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
+**1** - Clone the repository and access the directory created by the clone:
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```sh
+git clone https://github.com/acmachado14/controle-api.git && cd controle-api
+```
+
+**2** - Install Composer dependences and create the database:
+
+```sh
+composer install
+```
+
+**3** - Run Migrations:
+
+```sh
+php artisan migrate
+```
+
+**4** - Finally run the project:
+
+```sh
+php -S localhost:8000 -t public
+```
+- - - -
+
+<h2 id="principles">
+ Principles
+</h2>
+
+Representational State Transfer (REST)
+
+- - -
+
+<h2 id="methodologiesDesigns">
+ Methodologies and Designs
+</h2>
+
+* Clean Architecture
+* DDD
+
+- - -
+
+<h2 id="librariesFrameworks">
+ Libraries and Frameworks
+</h2>
+
+* Php
+* Git
+* Lumen
+* Eloquent
+* Docker
+* Composer
+* Symfony
+* PHPUnit
