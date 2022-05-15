@@ -4,6 +4,6 @@ namespace App\Support\Constants;
 
 class TipoPagamento
 {
-    public const COMPLETO = 0;
-    public const PARCIAL = 1;
+    public const COMPLETO = "Completo";
+    public const PARCIAL = "Parcial";
 }

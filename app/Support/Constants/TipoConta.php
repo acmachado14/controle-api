@@ -4,6 +4,6 @@ namespace App\Support\Constants;
 
 class TipoConta
 {
-    public const PESSOAL = 0;
-    public const CONJUNTO = 1;
+    public const PESSOAL = "Pessoal";
+    public const CONJUNTO = "Conjunto";
 }
